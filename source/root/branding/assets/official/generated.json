@@ -1,0 +1,145 @@
+{
+  "source_sha256": "0f207af8602569cb199cb1635541f2cfb19aee47ff382abf684635814aac07c9",
+  "sizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "treatment": "Original geometry; transparent original-green UI/web logo; dark UI tint #81AF89 (40% white blend); original-green shell/MSIX icons with subpixel neutral alpha outline; no plate or invented monogram",
+  "files": [
+    {
+      "path": "branding/assets/fildesk.ico",
+      "bytes": 83563,
+      "sha256": "d0171a6d4c3c4dda3ed17af6782ce395ddcc1d1db0150e4e61e7f28b524ef263"
+    },
+    {
+      "path": "client/res/icon.ico",
+      "bytes": 83563,
+      "sha256": "d0171a6d4c3c4dda3ed17af6782ce395ddcc1d1db0150e4e61e7f28b524ef263"
+    },
+    {
+      "path": "client/res/tray-icon.ico",
+      "bytes": 83563,
+      "sha256": "d0171a6d4c3c4dda3ed17af6782ce395ddcc1d1db0150e4e61e7f28b524ef263"
+    },
+    {
+      "path": "client/flutter/windows/runner/resources/app_icon.ico",
+      "bytes": 83563,
+      "sha256": "d0171a6d4c3c4dda3ed17af6782ce395ddcc1d1db0150e4e61e7f28b524ef263"
+    },
+    {
+      "path": "client/flutter/assets/icon.ico",
+      "bytes": 83563,
+      "sha256": "d0171a6d4c3c4dda3ed17af6782ce395ddcc1d1db0150e4e61e7f28b524ef263"
+    },
+    {
+      "path": "branding/assets/official/icon-16.png",
+      "bytes": 961,
+      "sha256": "23e306450d3f9aefb038d33cde5051d064cc23ba8bf0f8f6940637bcafef7465"
+    },
+    {
+      "path": "branding/assets/official/icon-24.png",
+      "bytes": 1759,
+      "sha256": "1ab84fa544c5657b5c01cf38ef6a9e71510b3d5507c7d62a839d9efb4ed42ba4"
+    },
+    {
+      "path": "branding/assets/official/icon-32.png",
+      "bytes": 2796,
+      "sha256": "115cd69a39c3f94d54e1a8dd29b56a45b27cae5bfaa8ce6cb9b7ff40a64e518b"
+    },
+    {
+      "path": "branding/assets/official/icon-48.png",
+      "bytes": 5053,
+      "sha256": "7c4a5e9c5716eadc50e1cdc97fc9025055bfc4f0ed52caab09cd5e6b24333f6e"
+    },
+    {
+      "path": "branding/assets/official/icon-64.png",
+      "bytes": 7556,
+      "sha256": "95cc9ca7cd820ba9c9d1153b0c90ef516c48c6c53f903690ed4e14c28b6e1acf"
+    },
+    {
+      "path": "branding/assets/official/icon-128.png",
+      "bytes": 18850,
+      "sha256": "056e2b858693c3ba03893d78aec549374bbce8ceed529e1d365f48143edbbb98"
+    },
+    {
+      "path": "branding/assets/official/icon-256.png",
+      "bytes": 46470,
+      "sha256": "a523274d4927d180b37abfdec69f9e8dbbd3abda73994d7b3bf2afc0c5c12676"
+    },
+    {
+      "path": "branding/assets/fildesk.png",
+      "bytes": 46470,
+      "sha256": "a523274d4927d180b37abfdec69f9e8dbbd3abda73994d7b3bf2afc0c5c12676"
+    },
+    {
+      "path": "client/flutter/assets/icon.png",
+      "bytes": 46470,
+      "sha256": "a523274d4927d180b37abfdec69f9e8dbbd3abda73994d7b3bf2afc0c5c12676"
+    },
+    {
+      "path": "client/flutter/assets/logo.png",
+      "bytes": 34894,
+      "sha256": "44b7a18e954460a4c211a75c7d42eeed9963c2796a9e856c5a99b69c0a72adae"
+    },
+    {
+      "path": "client/flutter/assets/logo_dark.png",
+      "bytes": 37441,
+      "sha256": "4c934d83b7664019e3f90e5a8756390f4822a3011ed75b5b56dc447443587498"
+    },
+    {
+      "path": "branding/assets/official/logo-dark-1024.png",
+      "bytes": 192081,
+      "sha256": "b9efde4a0c8ec3bc62260a712219042503462cb90b0755f18740d29c175027e5"
+    },
+    {
+      "path": "branding/assets/official/logo-dark.svg",
+      "bytes": 5201,
+      "sha256": "c10f1b85ba61222dbbf978cfb463303694ce3429544135fddddf4ddd7e5fc75f"
+    },
+    {
+      "path": "branding/assets/official/logo-1024.png",
+      "bytes": 175418,
+      "sha256": "ada38cb610a8e1c1bb5d0bd05fe091927677902b5eaa7ca1dd94dadf2b90e5e4"
+    },
+    {
+      "path": "client/flutter/assets/icon.svg",
+      "bytes": 5199,
+      "sha256": "dc6605abb71a23d3b4146f8b6c22a0b2b3d4faf86838bc67e64e7669e46a03da"
+    },
+    {
+      "path": "integration/nextjs/public/fildesk/fil-teknoloji.svg",
+      "bytes": 5199,
+      "sha256": "dc6605abb71a23d3b4146f8b6c22a0b2b3d4faf86838bc67e64e7669e46a03da"
+    },
+    {
+      "path": "deployment/msix/Assets/StoreLogo.png",
+      "bytes": 5351,
+      "sha256": "361ae21b0ad7f7c70f8021306d661e0458b3c9982700f40e9a7a9e00044ccfb8"
+    },
+    {
+      "path": "deployment/msix/Assets/Square44x44Logo.png",
+      "bytes": 4444,
+      "sha256": "1802dce582fdd4e8198a401c93ce09a74a14e425e65755fe2237b0e0971c40e2"
+    },
+    {
+      "path": "deployment/msix/Assets/Square150x150Logo.png",
+      "bytes": 23126,
+      "sha256": "7f08f366b6a3b48ceeb768eca008d13d5a194ce5c96879312bf4cc5a6e961cd5"
+    },
+    {
+      "path": "deployment/msix/Assets/Square44x44Logo.scale-200.png",
+      "bytes": 11584,
+      "sha256": "06d1ca858542a689d2b73576a18c474e27de23bbbd64cf73f739d18916b4226c"
+    },
+    {
+      "path": "deployment/msix/Assets/Square150x150Logo.scale-200.png",
+      "bytes": 57143,
+      "sha256": "595d17d033e8b0881ec2f2b8637bec02d4c6da0d4bb673fd71af43cc359b3998"
+    }
+  ]
+}

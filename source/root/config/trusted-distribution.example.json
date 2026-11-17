@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "expected_publisher": "UNVERIFIED",
+  "comment": "Copy to config/trusted-distribution.json only after the owner verifies the exact legal certificate Subject. No private key or certificate secret belongs here. This example deliberately cannot pass."
+}

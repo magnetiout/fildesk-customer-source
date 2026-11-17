@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "kind": "fildesk-ci-local-bundles-v1",
+  "sources": {
+    "client": {
+      "bundle": "ci/source/client.bundle",
+      "sha256": "686545303e32f56e495f1341d65aca163d15d1a6bc84bd8ac3f4a70ef090b84b",
+      "commit": "388aba86d104d5ae47832fa4fb5e3320c81ee2b4",
+      "tree": "475fa9db50c5304b2df4f0678f53df623ab91dce",
+      "ref": "refs/heads/pala/fildesk-status-20261025",
+      "lock_sha256": "14cac7e6b00a75fef782eae614ed55cd78c843c9b0e9ddae25b66a18623bef08",
+      "vendored_common_sha256": "616343d0ca09c47f6ee329027acb0c3554abcacce91e28c920cab4abaf03eb3e"
+    },
+    "server": {
+      "bundle": "ci/source/server.bundle",
+      "sha256": "bb2db062f42337fc7150c833cf1a368ec3923baebc078754b7a272d65bc4b465",
+      "commit": "4ad64c3f95348d0afce857df80d7d174c7ebfebe",
+      "tree": "9c6ac5409746bf1519581c33c95f792f8956bff7",
+      "ref": "refs/heads/pala/unified-fildesk-tls-20261024",
+      "lock_sha256": "4c0dbbde327e2fab5fb5e44c96748a5e48df96995334f8f77eebd6a163a5f035",
+      "vendored_common_sha256": "c857b7b4238ac72e1bfafd1f9580ded8e4e373cb00de07e47e6166453d0e6508"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "client": {
+    "url": "https://github.com/magnetiout/fil-remote-client.git",
+    "tag": "pala/windows-portable-asset-fix-20261016",
+    "commit": "9db42d7481b7249b4edddac186c801547479954b",
+    "submodules": "",
+    "vendored_common_commit": "318178d12acbd25ec256de49f7c1d3b7d7c7f24c",
+    "source_policy": "common is regular source at libs/hbb_common; no submodule update or upstream credential required",
+    "source_format": "fil-sanitized-source-v1"
+  },
+  "server": {
+    "url": "https://github.com/magnetiout/fil-remote-server.git",
+    "tag": "pala/security-source-20261015",
+    "commit": "47832f562e7da484041b487de4a50d9667867dbc",
+    "submodules": "",
+    "vendored_common_commit": "2049af42e122741d9d94cb4b67230d5c3eec8ff2",
+    "source_policy": "common is regular source at libs/hbb_common; no submodule update or upstream credential required",
+    "source_format": "fil-sanitized-source-v1"
+  }
+}

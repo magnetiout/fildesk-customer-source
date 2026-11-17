@@ -1,0 +1,7 @@
+**
+!artifacts/
+!artifacts/server/
+!artifacts/server/hbbs
+!artifacts/server/hbbr
+!scripts/
+!scripts/server-entrypoint.sh

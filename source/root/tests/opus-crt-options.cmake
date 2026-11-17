@@ -1,0 +1,18 @@
+# Evaluate real port option selection only. No compiler/download/install is run.
+macro(vcpkg_from_github)
+endmacro()
+macro(vcpkg_check_features)
+endmacro()
+macro(vcpkg_cmake_configure)
+  set(options ${ARGV})
+  list(FILTER options INCLUDE REGEX "^-DOPUS_STATIC_RUNTIME=")
+  if(NOT "${options}" STREQUAL "${EXPECTED}")
+    message(FATAL_ERROR "Opus runtime options '${options}', expected '${EXPECTED}'")
+  endif()
+endmacro()
+macro(vcpkg_cmake_install)
+  # Return from included port before packaging/file mutation commands.
+  return()
+endmacro()
+include("${PORT}")
+message(STATUS "PASS option selection only; native compilation NOT RUN")

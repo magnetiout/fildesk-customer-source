@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "kind": "fildesk-public-download",
+  "approved": false,
+  "environment": "production",
+  "profile": "customer",
+  "version": null,
+  "filename": "FilDesk-Destek-Windows.exe",
+  "sha256": null,
+  "bytes": null,
+  "signing": "unsigned",
+  "signatureStatus": "NotSigned",
+  "publisher_verified": false,
+  "policyApproval": "owner-unsigned-fildesk-20261025",
+  "smartscreenReputation": "NOT_CLAIMED",
+  "sourceUrl": null,
+  "downloadUrl": null,
+  "sourceSHA256": null,
+  "releaseEvidenceSHA256": null,
+  "supportedSystems": []
+}

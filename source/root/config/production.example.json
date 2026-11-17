@@ -1,0 +1,7 @@
+{
+  "environment": "production",
+  "profile": "customer",
+  "id_server": "",
+  "relay_server": "",
+  "public_key": ""
+}

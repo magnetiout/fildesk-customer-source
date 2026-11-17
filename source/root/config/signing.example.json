@@ -1,0 +1,11 @@
+{
+  "approved": false,
+  "provider": "artifact-signing",
+  "expectedPublisherSubject": "",
+  "signTool": "",
+  "dlib": "",
+  "toolSha256": {"signTool": "", "dlib": ""},
+  "metadata": "",
+  "timestampUrl": "",
+  "certificateThumbprint": ""
+}

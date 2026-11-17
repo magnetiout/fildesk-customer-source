@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "decision_reference": "owner-unsigned-fildesk-20261025",
+  "decision_date": "2026-10-25",
+  "unsigned_customer_allowed": true,
+  "paid_signing_required": false,
+  "store_distribution": false,
+  "security_and_license_waiver": false,
+  "windows_protections_must_remain_enabled": true,
+  "publisher_verified": false,
+  "smartscreen_reputation": "NOT_CLAIMED",
+  "windows10_acceptance": {
+    "status": "OWNER_DEFERRED_UNTESTED",
+    "decision_reference": "owner-windows10-deferred-20261116",
+    "decision_date": "2026-11-16",
+    "physical_pass_claim_allowed": false,
+    "security_waiver": false
+  }
+}

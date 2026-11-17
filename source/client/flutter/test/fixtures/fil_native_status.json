@@ -1,0 +1,117 @@
+[
+  {
+    "build": "1.5.0+73",
+    "context": {
+      "endpoint": "",
+      "key_fingerprint": "",
+      "role": "customer"
+    },
+    "outgoing": [
+      {
+        "context": {
+          "endpoint": "",
+          "key_fingerprint": "",
+          "role": "customer"
+        },
+        "direct": null,
+        "encrypted": null,
+        "peer_identity": "not_evaluated",
+        "phase": "requesting",
+        "reference": "20edead09dc74648899a9bfdab1aefad",
+        "round": 7,
+        "stream_type": ""
+      }
+    ],
+    "service": null,
+    "version": 1
+  },
+  {
+    "build": "1.5.0+73",
+    "context": {
+      "endpoint": "",
+      "key_fingerprint": "",
+      "role": "customer"
+    },
+    "outgoing": [
+      {
+        "context": {
+          "endpoint": "",
+          "key_fingerprint": "",
+          "role": "customer"
+        },
+        "direct": false,
+        "encrypted": true,
+        "peer_identity": "pinned_root_peer_signature",
+        "phase": "authorization_pending",
+        "reference": "20edead09dc74648899a9bfdab1aefad",
+        "round": 7,
+        "stream_type": "TCP"
+      }
+    ],
+    "service": null,
+    "version": 1
+  },
+  {
+    "build": "1.5.0+73",
+    "context": {
+      "endpoint": "",
+      "key_fingerprint": "",
+      "role": "customer"
+    },
+    "outgoing": [
+      {
+        "context": {
+          "endpoint": "",
+          "key_fingerprint": "",
+          "role": "customer"
+        },
+        "direct": false,
+        "encrypted": true,
+        "peer_identity": "pinned_root_peer_signature",
+        "phase": "authorized_waiting_video",
+        "reference": "20edead09dc74648899a9bfdab1aefad",
+        "round": 7,
+        "stream_type": "TCP"
+      }
+    ],
+    "service": null,
+    "version": 1
+  },
+  {
+    "build": "1.5.0+73",
+    "context": {
+      "endpoint": "",
+      "key_fingerprint": "",
+      "role": "customer"
+    },
+    "outgoing": [
+      {
+        "context": {
+          "endpoint": "",
+          "key_fingerprint": "",
+          "role": "customer"
+        },
+        "direct": false,
+        "encrypted": true,
+        "peer_identity": "pinned_root_peer_signature",
+        "phase": "video_packet_received",
+        "reference": "20edead09dc74648899a9bfdab1aefad",
+        "round": 7,
+        "stream_type": "TCP"
+      }
+    ],
+    "service": null,
+    "version": 1
+  },
+  {
+    "build": "1.5.0+73",
+    "context": {
+      "endpoint": "",
+      "key_fingerprint": "",
+      "role": "customer"
+    },
+    "outgoing": [],
+    "service": null,
+    "version": 1
+  }
+]

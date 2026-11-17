@@ -1,0 +1,27 @@
+# Build inputs must have identical bytes on Linux and Windows runners.
+* text=auto eol=lf
+# Git binary patches must never undergo checkout newline conversion.
+branding/patches/*.patch -text
+# Unified patch context has intentional single-space blank lines; preserve patch bytes.
+branding/candidates/*.patch -text whitespace=-blank-at-eol
+# Native evidence manifests bind exact downloaded bytes, including CRLF.
+reports/native-security-run-*/*.log -text
+
+# Preserve original downloaded Windows job evidence bytes.
+reports/logs/windows-pre-signing-customer.log -text
+reports/logs/windows-pre-signing-operator.log -text
+
+reports/logs/fildesk-*-build.log -text
+reports/logs/fildesk-gui-bridge.log -text
+reports/logs/fildesk-gui-final-bridge.log -text
+
+reports/logs/official-logo-*.log -text
+
+reports/logs/polish-*.log -text
+
+reports/logs/final-polish-*.log -text -whitespace
+
+# Raw staging evidence retains Docker output spacing and line endings.
+reports/staging-*.log -text -whitespace
+
+reports/native-security-run-38385157675/**/*.log -text -whitespace

@@ -1,0 +1,30 @@
+{
+  "crate": "fruitbasket",
+  "version": "0.10.0",
+  "source": "https://crates.io/crates/fruitbasket/0.10.0",
+  "archive_sha256": "898289b8e0528c84fb9b88f15ac9d5109bcaf23e0e49bb6f64deee0d86b6a351",
+  "license": "Apache-2.0; original LICENSE retained",
+  "source_files": [
+    {
+      "path": "Cargo.toml",
+      "source_sha256": "562a9a6a435201e1b3e5b9c413f4d35bf3bef946061d3f9119c4d9e522fae0b8"
+    },
+    {
+      "path": "LICENSE",
+      "source_sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "9592eb368c3dec8541d6e34ece778bd89e9eec566227872282568de9d68091b4"
+    },
+    {
+      "path": "src/lib.rs",
+      "source_sha256": "845207880dbed91de1a9a1dd8aa172e33be1db56c8a9adeb195560279a61954c"
+    },
+    {
+      "path": "src/osx.rs",
+      "source_sha256": "6bce290e9b302464cf15d687eab074355ae906bb9db3ca88c9e7136a99ecf9b5"
+    }
+  ],
+  "change": "Remove time0.1; only two RunPeriod timeout clocks now use monotonic std Instant. Same sleep intervals/Once/Forever/stop callbacks, no ObjC/AppKit workflow changes."
+}

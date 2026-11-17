@@ -1,0 +1,21 @@
+--- a/res/vcpkg/opus/portfile.cmake
++++ b/res/vcpkg/opus/portfile.cmake
+@@ -33,6 +33,18 @@
+     list(APPEND ADDITIONAL_OPUS_OPTIONS "-DOPUS_DISABLE_INTRINSICS=ON -DCOMPILER_SUPPORTS_NEON=OFF") # for HEAD (and future Opus release)
+ endif()
+ 
++# Match Opus' own MSVC runtime option to the vcpkg triplet.
++# Do not suppress vcpkg CRT post-build validation.
++if(VCPKG_TARGET_IS_WINDOWS AND NOT VCPKG_TARGET_IS_MINGW)
++    if(VCPKG_CRT_LINKAGE STREQUAL "static")
++        list(APPEND ADDITIONAL_OPUS_OPTIONS "-DOPUS_STATIC_RUNTIME=ON")
++    elseif(VCPKG_CRT_LINKAGE STREQUAL "dynamic")
++        list(APPEND ADDITIONAL_OPUS_OPTIONS "-DOPUS_STATIC_RUNTIME=OFF")
++    else()
++        message(FATAL_ERROR "Unknown VCPKG_CRT_LINKAGE for Opus")
++    endif()
++endif()
++
+ vcpkg_cmake_configure(
+     SOURCE_PATH "${SOURCE_PATH}"
+     OPTIONS ${FEATURE_OPTIONS}

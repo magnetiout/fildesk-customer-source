@@ -1,0 +1,53 @@
+{
+  "upstream": "https://github.com/rustdesk-org/keepawake-rs",
+  "commit": "64d568586dd16551d02120e19668d2b0fec8e3c9",
+  "version": "0.4.3",
+  "source_files": [
+    {
+      "path": "Cargo.toml",
+      "source_sha256": "b26d1f8d2db1315b2d5c355a5c893ca96222ee1149c99be48620486b7d0697c2"
+    },
+    {
+      "path": "LICENSE",
+      "source_sha256": "df00a4021c1f83b984d2c905edd788595065dc586cf8f3eed8f28c94ecb07dcf"
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "29a4ce1937f932649a3f4abbe4c58ffe466d818c46a0c2900767f057a0c104ba"
+    },
+    {
+      "path": "build.rs",
+      "source_sha256": "ed19a136e664fc0620154c4ee44c54593ed2dbb998c228f0f9d945ac4cc45dbf"
+    },
+    {
+      "path": "keepawake.exe.manifest",
+      "source_sha256": "5d0a145eb67874dde25de7786dc6221b9bdba4a5f86d6b469808bed9be3f563e"
+    },
+    {
+      "path": "src/lib.rs",
+      "source_sha256": "63b91e550081fee72c3cfa2b1c51cc1ee18233a8efa40f405ac72c1702e9869e"
+    },
+    {
+      "path": "src/sys/macos.rs",
+      "source_sha256": "90b4b6d5f87a78f9c55ccdc85debd8032c6eb7d0211d0fd996dbdac1f2d47699"
+    },
+    {
+      "path": "src/sys/windows.rs",
+      "source_sha256": "f5b449b39ac53475d87d0669f61363ce154f6956f3b0d28daac24acb79f632ca"
+    },
+    {
+      "path": "src/sys/mod.rs",
+      "source_sha256": "2e1bbe46d4c13c716a70a9f610d8159ab1c130b0b1216390ad76beb8904d150b"
+    },
+    {
+      "path": "src/sys/linux.rs",
+      "source_sha256": "f534ee6c18767f5633319d675a0b8c350516284522aac0460c58164b70b5269e"
+    },
+    {
+      "path": "src/sys/macos/iokit.rs",
+      "source_sha256": "621cb75e229394300e0a62149a93fd44b4459fbaf8b235d44ead4eb94989ae14"
+    }
+  ],
+  "change": "Disable optional native git2 shadow-rs feature; retain tzdb and existing supported CLI git fallback. No runtime source changes.",
+  "license": "MIT; original LICENSE retained"
+}

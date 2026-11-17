@@ -1,0 +1,12 @@
+{
+  "url": "https://filteknoloji.com/logo/Fil_Logo_svg.svg",
+  "discovered_on": "https://filteknoloji.com/",
+  "dom": "img[alt=\"Fil Teknoloji\"][src=\"/logo/Fil_Logo_svg.svg\"] in header, hero and footer",
+  "http_status": 200,
+  "retrieved_at": "2026-10-12T21:03:55.723331+00:00",
+  "sha256": "0f207af8602569cb199cb1635541f2cfb19aee47ff382abf684635814aac07c9",
+  "bytes": 5201,
+  "viewBox": "0 0 286 286",
+  "authorization": "User explicitly requested official website logo reuse for FilDesk",
+  "notes": "Unused off-canvas text 7739C at y=380.5; visible geometry consists of four paths. No external resources/scripts."
+}
